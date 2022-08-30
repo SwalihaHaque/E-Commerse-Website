@@ -1,0 +1,85 @@
+/*Small device */
+@media (min-width:280px) and (max-width:575px) {
+    .home-center p{ 
+        font-size: 5vw;
+    }
+    #product .col-md-4, #service .col-md-4{
+        padding-bottom: 20px;
+    }
+    #contact h4{
+        font-size: 5vw;
+    }
+  
+    .footer_link a {
+        margin-left: 40%;
+        text-align: center;
+    }
+}
+
+/*Medium Device*/
+@media (min-width:576px) and (max-width: 767px){
+    .home-center p{
+        font-size: 4vw;
+        
+    }
+    #service .row .col-md-4{
+        padding-bottom: 15px;
+    }
+    .footer_link a {
+        margin-left: 44%;
+    }
+}
+
+/********** large devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-center h2{
+        font-size: 8vw;
+    }
+    .home-center p{
+        font-size: 4vw;
+        
+    }
+    #product .card-title{
+        font-size: 3vw;
+    }
+    #service .row h5{
+        font-size: 2.5vw;
+    }
+    .shadow h5{
+        font-size: 2vw;
+    }
+    #footer .col-md-4 h4{
+        font-size: 4vw;
+    }
+    #footer .col-md-4 h6{
+        font-size: 3vw;
+    }
+    #footer .row p{
+        font-size: 2vw;
+    }
+    .footer_link a {
+        margin-left: 25%;
+        font-size: 2.5vw;
+    }
+    .social-media a{
+        font-size: 2.5vw;
+    }
+}
+@media (min-width: 992px) and (max-width: 1440px) { 
+ 
+     .home-center p{
+     font-size: 3vw;   
+ }
+
+}
+/*extra extra large*/
+@media (min-width:1441px) and (max-width: 1960px){
+    .navber-brand{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .home-center p{
+        font-size: 2vw;
+    }
+}

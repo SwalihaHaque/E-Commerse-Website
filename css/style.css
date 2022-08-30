@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.navber-brand{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.navbar-toggler-icon{
+    background-image: url(../img/menu.png) !important;
+  }
+
+#home{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.home-center{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+    text-align: center;
+    padding: 10px;
+}
+
+.home-center p{
+    color: black;
+    text-align: center;
+    font-size: 5vw;
+}
+.home-btn .btn{
+    border: 2px solid #fff;
+}
+.home-btn .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.card shadow{
+    height: 50px;
+}
+.hover_image{
+   overflow: hidden;
+}
+.hover_image img{
+    transition: 0.75s;
+}
+.hover_image:hover img{
+    transform: scale(1.5);
+}
+.btn-cart{
+    background: #000;
+    color: #fff;
+    border: 2px solid blue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.btn-cart:hover{
+    background: #fff;
+    border: 2px solid black;
+}
+.btn-view{
+    border: 2px solid blue; 
+    background: #fff;
+    color: #000;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.btn-view:hover{
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;  
+}
+.carousel-inner{
+    text-align: center;
+}
+.carousel-item img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.footer_link a {
+    padding: 0 !important;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    margin-left: 143px;
+    transition: 0.2s;
+}
+.footer_link a:hover{
+    color: #000;
+}
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.text-white{
+    padding-top: 10px;
+}
